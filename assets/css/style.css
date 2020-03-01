@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+	padding: 0;
+	margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto';
+}
+p{
+	font-family: 'Open Sans';
+}
+.home-banner {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#29c7d8+0,27a3d1+100 */
+background: #29c7d8; /* Old browsers */
+background: -moz-linear-gradient(left,  #29c7d8 0%, #27a3d1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #29c7d8 0%,#27a3d1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #29c7d8 0%,#27a3d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29c7d8', endColorstr='#27a3d1',GradientType=1 ); /* IE6-9 */
+height: 100vh;
+position: relative;
+/*clip-path: polygon(50% 0%, 100% 0, 100% 89%, 0 100%, 0 0);*/
+/*box-shadow: 0 8px 6px -6px black;*/
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.primary-banner-heading{
+	font-family: 'Roboto';
+	font-size: 56px;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+.banner-text-area p {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color:#fff;	
+	text-transform: capitalize;
+	text-align: center;
+}
+.btn-home-banner {
+	border:1px solid #fff!important;
+	background: transparent!important;
+	color:#fff!important;
+	padding: 10px 50px 10px 50px!important;
+	font-weight: bold!important;
+	text-transform: uppercase!important;
+}
+.btn-home-banner:hover{
+	background-color: #fff!important;
+	border:1px solid #fff!important;
+	color:#000!important;
+
+}
+.first-fold-text h2 {
+	font-size: 36px;
+	font-weight: 800;
+	letter-spacing: 3px; 
+}
+.first-fold-text p {
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+.first-fold-text ul {
+	text-decoration: none;
+	list-style: none;
+}
+.first-fold-text ul li {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.img-custom {
+	box-shadow: 0 8px 6px -6px black;
+}
+.first-fold-content h2{
+	font-size: 36px;
+	font-weight: bold;
+	text-align:center;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.first-fold-content p {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	text-align:center;
+
+}
+.deal-counter{
+
+} 
+.deal-counter h3{
+	font-size: 30px;
+	font-weight:bold;
+}
+.custom-transparent {
+	background:linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0,0.8)), url(../images/hero_2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 60vh;
+	position: relative;
+}
+.custom-transparent-text h2 {
+	font-size: 42px;
+	text-align: center!important;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.custom-transparent-text p {
+	font-size:18px;
+	color:#fff;
+	text-align: center;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #000;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: orange;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #fff;
+}
+
+.Delicious_area {
+  padding-bottom: 110px;
+  padding-top: 150px;
+}
+
+/* line 4, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu {
+  border-bottom: 1px solid #E5E8EA;
+  margin-bottom: 60px;
+}
+
+/* line 7, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav {
+  margin-bottom: 0px;
+}
+
+/* line 9, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li {
+  margin: 0 25px;
+}
+
+@media (max-width: 767px) {
+  /* line 9, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area .tablist_menu .nav li {
+    margin: 0 4px;
+  }
+}
+
+/* line 14, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a {
+  padding: 0 12px 27px 12px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 19, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a .single_menu .icon i {
+  font-size: 50px;
+  color: #596672;
+}
+
+/* line 24, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a .single_menu h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #596672;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 32, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a.active {
+  position: relative;
+}
+
+/* line 36, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a.active .single_menu .icon i {
+  color: #DB9A64;
+}
+
+/* line 40, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a.active .single_menu h4 {
+  color: #DB9A64;
+}
+
+/* line 44, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .tablist_menu .nav li a.active:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  background: #DB9A64;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 61, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 61, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area .single_delicious {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 61, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area .single_delicious {
+    display: block !important;
+  }
+}
+
+/* line 69, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .thumb {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 71, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .thumb img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 75, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .info {
+  padding-left: 28px;
+}
+
+@media (max-width: 767px) {
+  /* line 75, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area .single_delicious .info {
+    padding-left: 0;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 75, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+  .Delicious_area .single_delicious .info {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+}
+
+/* line 86, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .info h3 {
+  font-size: 24px;
+  color: #001D38;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 92, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+
+/* line 100, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_delicious.scss */
+.Delicious_area .single_delicious .info span {
+  display: block;
+  font-weight: 400;
+  font-size: 26px;
+  color: #DB9A64;
+}
+@media only screen and (max-width: 780px){
+		#navbar{
+			background-color: #000!important;
+			z-index: 9999!important;
+		}
+		.primary-banner-heading {
+			font-size: 36px!important;
+			text-align: center!important;
+		} 
+		.custom-transparent {
+			height: 100vh!important;
+		}
+		.single_delicious {
+			margin:0 auto!important;
+		}
+	}
